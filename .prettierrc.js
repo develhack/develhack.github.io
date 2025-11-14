@@ -1,0 +1,10 @@
+export default {
+  trailingComma: 'es5',
+  tabWidth: 2,
+  semi: true,
+  singleQuote: true,
+  endOfLine: 'lf',
+  quoteProps: 'consistent',
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindStylesheet: 'app/globals.css',
+};
