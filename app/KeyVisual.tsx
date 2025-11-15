@@ -44,6 +44,7 @@ export default function KeyVisual() {
           className={clsx(
             'block',
             'h-[1em]',
+            'my-4',
             line.broken && [
               'after:content-["↵"]',
               'after:absolute',
