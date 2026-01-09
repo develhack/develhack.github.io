@@ -9,7 +9,6 @@ const menus = [
   { title: 'ホーム', segment: '' },
   { title: '会社概要', segment: 'aboutus' },
   { title: 'お問い合わせ', segment: 'contact' },
-  { title: '公告', segment: 'notice' },
 ];
 
 export default function Navigation() {

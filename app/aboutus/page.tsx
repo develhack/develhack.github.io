@@ -1,5 +1,6 @@
 import createTitle from '@/lib/createTitle';
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 const title = '会社概要';
 
@@ -78,6 +79,34 @@ export default function AboutUs() {
               登録番号
             </th>
             <td className="p-3">T7011401019142</td>
+          </tr>
+          <tr className="border-b">
+            <th scope="row" className="p-3">
+              公告
+            </th>
+            <td className="p-3">
+              <a
+                className="inline-flex items-center border-b border-dashed hover:text-blue-500"
+                href="https://k.secure.freee.co.jp/companies/330/announces"
+                target="_blank"
+              >
+                <span>電子公告</span>
+                <svg
+                  className="w- ml-2 inline-block h-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                </svg>
+              </a>
+            </td>
           </tr>
         </tbody>
       </table>
